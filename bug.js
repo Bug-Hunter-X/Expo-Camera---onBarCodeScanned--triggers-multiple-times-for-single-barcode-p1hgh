@@ -1,0 +1,1 @@
+This bug occurs when using the Expo `Camera` API with a custom `onBarCodeScanned` function.  The function is called multiple times for a single barcode, leading to performance issues and unexpected behavior. This is particularly noticeable when scanning barcodes rapidly.  The issue doesn't consistently appear, making it difficult to debug.
